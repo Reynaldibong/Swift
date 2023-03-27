@@ -1,0 +1,123 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url(./img/beach-aerial-view-4000x3000-10883.jpg);
+}
+.parent-navbar {
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+}
+#navbar {
+  display: flex;
+  color: white;
+  width: 1926px;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+.menu1 {
+  display: flex;
+}
+.menu {
+  width: 80px;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sosmed {
+  display: flex;
+  /* align-items: right; */
+  width: 100%;
+  justify-content: right;
+  /* padding-right: 100px; */
+}
+.sosmed img {
+  display: flex;
+  height: 20px;
+}
+.sosmed1 {
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+}
+.images {
+  display: flex;
+  width: 100vw;
+  /* width: 1926px; */
+
+  justify-content: center;
+}
+.images img {
+  width: 100%;
+  display: flex;
+}
+.left {
+  width: 500px;
+}
+.right {
+  width: 500px;
+  display: flex;
+  background-color: chocolate;
+  font-size: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  padding-left: 30px;
+}
+.rightcontent {
+  padding-top: 20px;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: rgb(19, 37, 126);
+}
+
+.rightcontent3 {
+  font-size: 20px;
+  padding-top: 50px;
+}
+.content {
+  max-width: 1030px;
+  padding-bottom: 50px;
+}
+.content1 {
+  padding-top: 40px;
+  font-size: 60px;
+  color: bisque;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.kotak {
+  max-width: 900px;
+}
+.kotak2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+.isi {
+  width: 250px;
+  font-size: 20px;
+  color: rgb(166, 149, 128);
+  padding-top: 50px;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.closing {
+  width: 100vw;
+  background-color: rgb(41, 45, 51);
+}
+.try1 {
+  width: 700px;
+}
+.try2 {
+  font-size: 80px;
+  color: rgb(128, 137, 148);
+  padding: 20px;
+  padding-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
